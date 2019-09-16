@@ -1,0 +1,23 @@
+{
+  "name": "cloudcomputingassign2",
+  "version": "1.0.0",
+  "description": "This project is for RMIT Cloud_Computing Assignment2 Semester 2, 2019",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hao-OCT/CloudComputingAssign2.git"
+  },
+  "author": "Hao Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hao-OCT/CloudComputingAssign2/issues"
+  },
+  "homepage": "https://github.com/Hao-OCT/CloudComputingAssign2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
