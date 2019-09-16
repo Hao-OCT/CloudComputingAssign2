@@ -6,5 +6,11 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true },
   password: { type: String, required: true }
 });
-
+// const user = mongoose.model("User", userSchema);
+// user.create({
+//   firstName: "John",
+//   lastName: "Dae",
+//   email: "John.dae@gmail.com",
+//   password: "password"
+// });
 exports.User = mongoose.model("User", userSchema);
