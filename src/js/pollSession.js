@@ -7,12 +7,11 @@ var options = {
 	
 	//path .../{Session id}?options like sortType,
 	//get Session ID from createSession header->Location->final section
-	"path": "/apiservices/pricing/uk2/v1.0/49618f1f-885e-4a6e-8ad6-97ca3d8208e3?sortType=duration&pageIndex=0&pageSize=10",
+	"path": "/apiservices/pricing/uk2/v1.0/8075c694-53f0-4e72-98dc-5fd9255ab378?sortType=duration&pageIndex=0&pageSize=10",
 	"headers": {
 		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
 		
-		//change here
-		"x-rapidapi-key": "f7fb25c9-4313-4d5c-9483-207e3937f7e4"
+		"x-rapidapi-key": "3c95f0fb29mshbd153b344888fe5p19b36fjsn1aa60346eba1"
 	}
 };
 

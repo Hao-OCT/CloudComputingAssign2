@@ -5,7 +5,7 @@ var options = {
 	"hostname": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
 	"port": null,
 	//
-	"path": "/apiservices/reference/v1.0/countries/en-AU",
+	"path": "/apiservices/reference/v1.0/countries/en-US",
 	"headers": {
 		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
 		"x-rapidapi-key": "3c95f0fb29mshbd153b344888fe5p19b36fjsn1aa60346eba1"
