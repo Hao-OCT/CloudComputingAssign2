@@ -9,6 +9,8 @@ import auth from "./services/authService";
 import NotFound from "./components/notFound";
 import Landing from "./components/landing";
 import ProtectedRoute from "./components/common/protectedRoute";
+import ProfileForm from "./components/profileForm";
+import Quote from "./components/quote";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
@@ -29,8 +31,9 @@ class App extends Component {
             <Route path="/login" component={LoginFrom} />
             <Route path="/register" component={RegisterForm} />
             <Route path="/logout" component={Logout} />
-            <ProtectedRoute path="/profile/:id" component={LoginFrom} />
+            <ProtectedRoute path="/profile/:id" component={ProfileForm} />
             <Route path="/not-found" component={NotFound} />
+            <Route path="/quote" component={Quote} />
             <Route path="/" exact component={Landing} />
             <Redirect to="/not-found" />
           </Switch>

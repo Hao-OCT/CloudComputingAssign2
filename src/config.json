@@ -1,3 +1,6 @@
 {
-  "apiUrl": "http://localhost:3000/api"
+  "apiUrl": "http://localhost:3000/api",
+  "quoteUrl": " https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0",
+  "apiHost": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
+  "apiKey": "8654aad1e3mshbe551f028e8ff9ap1bad9cjsnf616b195d23f"
 }
