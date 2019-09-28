@@ -36,7 +36,7 @@ class Quote extends Form {
 
   render() {
     return (
-      <React.Fragment>
+      <div className="container">
         <h1>Where to next</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("origin", "Origin")}
@@ -45,8 +45,9 @@ class Quote extends Form {
           {this.renderInput("outbound", "Outbound date", "date")}
           {this.renderInput("inbound", "Inbound date", "date")}
           {this.renderButton("Click")}
+          <input type="text" id="input1" />
         </form>
-      </React.Fragment>
+      </div>
     );
   }
 }

@@ -29,7 +29,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("./images/bg-masthead.jpg") no-repeat center center;
+  background: url("./images/bg-masthead.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -48,7 +48,15 @@ header.masthead .overlay {
 header.masthead h1 {
   font-size: 2rem;
 }
-
+.showcase-img-1 {
+  background: url("./images/bg-showcase-1.jpeg") no-repeat center center;
+}
+.showcase-img-2 {
+  background: url("./images/bg-showcase-2.jpeg") no-repeat center center;
+}
+.showcase-img-3 {
+  background: url("./images/bg-showcase-3.jpeg") no-repeat center center;
+}
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -71,6 +79,7 @@ header.masthead h1 {
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
+    text-align: center;
   }
 }
 
@@ -112,7 +121,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("./images/bg-masthead.jpg") no-repeat center center;
+  background: url("./images/bg-masthead.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;

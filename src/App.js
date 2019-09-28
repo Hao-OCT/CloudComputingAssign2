@@ -11,7 +11,6 @@ import Landing from "./components/landing";
 import ProtectedRoute from "./components/common/protectedRoute";
 import ProfileForm from "./components/profileForm";
 import Quote from "./components/quote";
-import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
 class App extends Component {
@@ -26,18 +25,17 @@ class App extends Component {
       <React.Fragment>
         <ToastContainer />
         <NavBar user={user} />
-        <main className="container">
-          <Switch>
-            <Route path="/login" component={LoginFrom} />
-            <Route path="/register" component={RegisterForm} />
-            <Route path="/logout" component={Logout} />
-            <ProtectedRoute path="/profile/:id" component={ProfileForm} />
-            <Route path="/not-found" component={NotFound} />
-            <Route path="/quote" component={Quote} />
-            <Route path="/" exact component={Landing} />
-            <Redirect to="/not-found" />
-          </Switch>
-        </main>
+
+        <Switch>
+          <Route path="/login" component={LoginFrom} />
+          <Route path="/register" component={RegisterForm} />
+          <Route path="/logout" component={Logout} />
+          <ProtectedRoute path="/profile/:id" component={ProfileForm} />
+          <Route path="/not-found" component={NotFound} />
+          <Route path="/quote" component={Quote} />
+          <Route path="/" exact component={Landing} />
+          <Redirect to="/not-found" />
+        </Switch>
       </React.Fragment>
     );
   }
