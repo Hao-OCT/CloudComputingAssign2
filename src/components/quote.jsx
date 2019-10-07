@@ -45,7 +45,6 @@ class Quote extends Form {
           {this.renderInput("outbound", "Outbound date", "date")}
           {this.renderInput("inbound", "Inbound date", "date")}
           {this.renderButton("Click")}
-          <input type="text" id="input1" />
         </form>
       </div>
     );

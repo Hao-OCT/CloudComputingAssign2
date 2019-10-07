@@ -47,10 +47,10 @@ class Landing extends Component {
                   <div className="features-icons-icon d-flex">
                     <i className="icon-plane m-auto text-primary"></i>
                   </div>
-                  <h3>Fully Responsive</h3>
+                  <h3>Cheap</h3>
                   <p className="lead mb-0">
-                    This theme will look great on any device, no matter the
-                    size!
+                    TLorem ipsum is a pseudo-Latin text used in web design,
+                    typography, layout
                   </p>
                 </div>
               </div>
@@ -59,9 +59,10 @@ class Landing extends Component {
                   <div className="features-icons-icon d-flex">
                     <i className="icon-globe m-auto text-primary"></i>
                   </div>
-                  <h3>Bootstrap 4 Ready</h3>
+                  <h3>Global</h3>
                   <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 4 framework!
+                    have been changed by addition or removal, so to deliberately
+                    render its content nonsensical; it's not genuine, correct
                   </p>
                 </div>
               </div>
@@ -70,7 +71,7 @@ class Landing extends Component {
                   <div className="features-icons-icon d-flex">
                     <i className="icon-check m-auto text-primary"></i>
                   </div>
-                  <h3>Easy to Use</h3>
+                  <h3>Easy</h3>
                   <p className="lead mb-0">
                     Ready to use with your own content, or customize the source
                     files!
@@ -87,22 +88,26 @@ class Landing extends Component {
             <div className="row no-gutters">
               <div className="col-lg-6 order-lg-2 text-white showcase-img showcase-img-1"></div>
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>Fully Responsive Design</h2>
+                <h2>123123123</h2>
                 <p className="lead mb-0">
-                  When you use a theme created by Start Bootstrap, you know that
-                  the theme will look great on any device, whether it's a phone,
-                  tablet, or desktop the page will behave responsively!
+                  In a professional context it often happens that private or
+                  corporate clients corder a publication to be made and
+                  presented with the actual content still not being ready. Think
+                  of a news blog that's filled with content hourly on the day of
+                  going live.
                 </p>
               </div>
             </div>
             <div className="row no-gutters">
               <div className="col-lg-6 text-white showcase-img showcase-img-2"></div>
               <div className="col-lg-6 my-auto showcase-text">
-                <h2>Updated For Bootstrap 4</h2>
+                <h2>234234234</h2>
                 <p className="lead mb-0">
-                  Newly improved, and full of great utility classes, Bootstrap 4
-                  is leading the way in mobile responsive web development! All
-                  of the themes on Start Bootstrap are now using Bootstrap 4!
+                  However, reviewers tend to be distracted by comprehensible
+                  content, say, a random text copied from a newspaper or the
+                  internet. The are likely to focus on the text, disregarding
+                  the layout and its elements. Besides, random text risks to be
+                  unintendedly humorous or offensive
                 </p>
               </div>
             </div>
@@ -111,10 +116,10 @@ class Landing extends Component {
               <div className="col-lg-6 order-lg-1 my-auto showcase-text">
                 <h2>Easy to Use &amp; Customize</h2>
                 <p className="lead mb-0">
-                  Landing Page is just HTML and CSS with a splash of SCSS for
-                  users who demand some deeper customization options. Out of the
-                  box, just add your content and images, and your new landing
-                  page will be ready to go!
+                  Most of its text is made up from sections 1.10.32–3 of
+                  Cicero's De finibus bonorum et malorum (On the Boundaries of
+                  Goods and Evils; finibus may also be translated as purposes).
+                  Neque porro quisquam est qui dolorem ipsum
                 </p>
               </div>
             </div>
