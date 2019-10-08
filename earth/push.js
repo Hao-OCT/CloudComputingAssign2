@@ -1,5 +1,3 @@
-
-
 function pushToShell(year, month, day) {
 	webPreferences:{
 		nodeIntegration: true;
