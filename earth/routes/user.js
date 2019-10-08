@@ -72,7 +72,7 @@ router.post("/register", async (req, res) => {
     const token = jwt.sign(payload, secret, {
       expiresIn: "2h"
     });
-    res.send(token);
+    res.cookie("token", token, { httpOnly: true }).redirect("/");
   } catch (ex) {
     console.log(ex.errors);
     res.status(500).send(ex.message);
