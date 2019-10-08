@@ -51,6 +51,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 var compression = require("compression");
 var morgan = require("morgan");
+var withAuth = require("./middileware/auth");
 app.use(cacheControl());
 app.use(compression({ filter: compressionFilter }));
 app.use(morgan("dev"));
@@ -84,7 +85,7 @@ const home = require("./routes/home");
 
 app.use("/home", home);
 app.use("/users", user);
-// app.get("/", (req, res) => res.redirect("/home"));
+//app.get("/", (req, res) => res.redirect("/login"));
 // app.get("*", (req, res) => res.sendStatus(404));
 
 app.listen(port);

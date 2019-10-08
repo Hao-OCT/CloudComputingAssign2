@@ -12,7 +12,12 @@ const secret = "This is a secret String";
 //find a user with the given username and verify that the given
 //password is correct. If the password is correct, we will issue
 //a signed token to the requester.
-
+router.get("/login", function(req, res) {
+  res.render("login");
+});
+router.get("/register", function(req, res) {
+  res.render("register");
+});
 router.post("/login", function(req, res) {
   const { email, password } = req.body;
   User.findOne({ email }, function(err, user) {
@@ -42,8 +47,7 @@ router.post("/login", function(req, res) {
           const token = jwt.sign(payload, secret, {
             expiresIn: "2h"
           });
-          //res.cookie("token", token, { httpOnly: true }).sendStatus(200);
-          res.send(token);
+          res.cookie("token", token, { httpOnly: true }).redirect("/");
         }
       });
     }
