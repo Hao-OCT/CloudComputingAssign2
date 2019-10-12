@@ -7,7 +7,7 @@
     "name": "Eric",
     "email": "myevelyn@outlook.com"
   },
-  "main": "public/index.html",
+  "main": "views/login.ejs",
   "scripts": {
     "start": "node dev-server.js 8080",
     "test": "ehco \"Error: no test specified\" && exit 1"
